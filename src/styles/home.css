@@ -1,0 +1,79 @@
+@import url("./variables.css");
+
+.c-header__text--black {
+  background-color: var(--primary-color);
+  color: var(--second-color);
+  font-size: var(--font-base);
+}
+
+.c-header__text--white {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: var(--font-xl-5);
+}
+
+.c-header__text--black, .c-header__text--white {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-banner {
+  color: var(--second-color);
+  height: 377px;
+  background-color: var(--primary-color);
+  position: relative;
+}
+
+.c-banner img {
+  opacity: 0.6;
+}
+
+.c-banner__block {
+  padding: 3rem;
+  position: absolute;
+  top: 30%;
+  max-width: 636px;
+  line-height: 160%;
+}
+
+.c-banner__title {
+  margin-bottom: 26px;
+  font-size: var(--font-3xl);
+}
+
+.c-banner__text {
+  font-size: var(--font-xl-5);
+}
+
+.c-section-product {
+  text-align: center;
+  padding: 6.25rem;
+}
+
+.c-section-product__title {
+  margin-bottom: 17px;
+  font-size: var(--font-2xl);
+}
+
+.c-section-product__description {
+  font-size: var(--font-xl);
+}
+
+.c-block__product{
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.c-footer {
+  background-color: var(--primary-color);
+  color: var(--second-color);
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
